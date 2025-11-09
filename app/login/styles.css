@@ -1,0 +1,259 @@
+main.login-page {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  align-items: stretch;
+  min-height: 100vh;
+  padding: 5vh clamp(2rem, 8vw, 8rem);
+  overflow: hidden;
+}
+
+.gradient {
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(circle at 20% 20%, rgba(212, 175, 56, 0.16), transparent 60%),
+    radial-gradient(circle at 80% 30%, rgba(212, 175, 56, 0.12), transparent 55%),
+    radial-gradient(circle at 50% 80%, rgba(212, 175, 56, 0.08), transparent 50%);
+  filter: blur(60px);
+  transform: scale(1.05);
+  z-index: 0;
+}
+
+.hero {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1.5rem;
+  max-width: 540px;
+  padding-right: clamp(1rem, 4vw, 6rem);
+}
+
+.hero .logo {
+  display: inline-flex;
+  align-items: flex-end;
+}
+
+.hero h1 {
+  font-size: clamp(2.5rem, 4vw, 3.5rem);
+  font-weight: 700;
+  line-height: 1.1;
+}
+
+.hero p {
+  font-size: 1.05rem;
+  color: rgba(255, 255, 255, 0.72);
+  max-width: 44ch;
+}
+
+.card {
+  position: relative;
+  z-index: 1;
+  align-self: center;
+  width: min(420px, 100%);
+  padding: clamp(2rem, 5vw, 3rem);
+  border-radius: 24px;
+  background: var(--surface);
+  border: 1px solid var(--surface-border);
+  box-shadow: 0 30px 60px rgba(0, 0, 0, 0.65);
+  backdrop-filter: blur(24px);
+  display: flex;
+  flex-direction: column;
+  gap: 1.75rem;
+}
+
+.card-header h2 {
+  font-size: 1.75rem;
+  font-weight: 600;
+}
+
+.card-header p {
+  color: rgba(255, 255, 255, 0.6);
+  margin-top: 0.35rem;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.stack {
+  display: flex;
+  flex-direction: column;
+}
+
+.stack.gap-4 {
+  gap: 1rem;
+}
+
+.stack.gap-3 {
+  gap: 0.75rem;
+}
+
+.row {
+  display: flex;
+  gap: 0.75rem;
+  align-items: center;
+}
+
+.row.between {
+  justify-content: space-between;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.field span {
+  font-size: 0.9rem;
+  color: rgba(255, 255, 255, 0.65);
+}
+
+.field input {
+  padding: 0.85rem 1rem;
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  background: rgba(10, 10, 10, 0.9);
+  color: inherit;
+  font-size: 1rem;
+  transition: border-color 180ms ease, box-shadow 180ms ease;
+}
+
+.field input:focus {
+  outline: none;
+  border-color: var(--accent);
+  box-shadow: 0 0 0 4px rgba(212, 175, 56, 0.22);
+}
+
+button.primary,
+button.secondary {
+  border: none;
+  border-radius: 14px;
+  font-weight: 600;
+  font-size: 1rem;
+  padding: 0.95rem 1rem;
+  cursor: pointer;
+  transition: transform 160ms ease, box-shadow 160ms ease, background 160ms ease;
+}
+
+button.primary {
+  background: linear-gradient(135deg, #d4af38, #b38518);
+  color: #fff;
+  box-shadow: 0 18px 30px rgba(212, 175, 56, 0.3);
+}
+
+button.primary:disabled {
+  cursor: wait;
+  opacity: 0.7;
+  box-shadow: none;
+}
+
+button.primary:not(:disabled):hover {
+  transform: translateY(-1px);
+  box-shadow: 0 22px 32px rgba(212, 175, 56, 0.4);
+}
+
+button.secondary {
+  background: rgba(255, 255, 255, 0.05);
+  color: rgba(255, 255, 255, 0.88);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+button.secondary:hover {
+  transform: translateY(-1px);
+  background: rgba(255, 255, 255, 0.08);
+}
+
+.remember {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.85rem;
+  color: rgba(255, 255, 255, 0.68);
+}
+
+.remember input {
+  width: 16px;
+  height: 16px;
+  accent-color: var(--accent);
+}
+
+.link-button {
+  background: none;
+  border: none;
+  font-size: 0.85rem;
+  color: rgba(212, 175, 56, 0.76);
+  cursor: pointer;
+  transition: color 160ms ease;
+}
+
+.link-button:hover {
+  color: var(--accent);
+}
+
+.divider {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  font-size: 0.85rem;
+  color: rgba(255, 255, 255, 0.52);
+}
+
+.divider::before,
+.divider::after {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: linear-gradient(
+    90deg,
+    rgba(212, 175, 56, 0),
+    rgba(212, 175, 56, 0.4),
+    rgba(212, 175, 56, 0)
+  );
+}
+
+.footnote {
+  text-align: center;
+  font-size: 0.9rem;
+  color: rgba(255, 255, 255, 0.62);
+}
+
+.footnote a {
+  color: var(--accent);
+  font-weight: 500;
+}
+
+.message {
+  text-align: center;
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: rgba(212, 175, 56, 0.85);
+}
+
+@media (max-width: 900px) {
+  main.login-page {
+    grid-template-columns: 1fr;
+    padding: clamp(2.5rem, 10vw, 4rem) clamp(1.5rem, 6vw, 3rem);
+    row-gap: 2.5rem;
+  }
+
+  .hero {
+    align-items: center;
+    text-align: center;
+    padding-right: 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .card {
+    padding: 2rem 1.5rem;
+  }
+
+  .hero h1 {
+    font-size: 2.2rem;
+  }
+}
