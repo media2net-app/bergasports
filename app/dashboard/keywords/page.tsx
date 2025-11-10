@@ -47,30 +47,32 @@ export default function DashboardKeywords() {
         </p>
       </header>
 
-      <table className="keyword-table wide">
-        <thead>
-          <tr>
-            <th>Categorie</th>
-            <th>Zoekwoord</th>
-            <th>Positie</th>
-            <th>Trend</th>
-            <th>Keyword difficulty</th>
-          </tr>
-        </thead>
-        <tbody>
-          {trackedKeywords.map((row) => (
-            <tr key={row.keyword}>
-              <td>{row.category}</td>
-              <td>{row.keyword}</td>
-              <td>{row.position}</td>
-              <td className={row.change.startsWith("+") ? "positive" : "negative"}>
-                {row.change}
-              </td>
-              <td>{row.difficulty}</td>
+      <div className="keyword-table-wrapper">
+        <table className="keyword-table wide">
+          <thead>
+            <tr>
+              <th>Categorie</th>
+              <th>Zoekwoord</th>
+              <th>Positie</th>
+              <th>Trend</th>
+              <th>Keyword difficulty</th>
             </tr>
-          ))}
-        </tbody>
-      </table>
+          </thead>
+          <tbody>
+            {trackedKeywords.map((row) => (
+              <tr key={row.keyword}>
+                <td>{row.category}</td>
+                <td>{row.keyword}</td>
+                <td>{row.position}</td>
+                <td className={row.change.startsWith("+") ? "positive" : "negative"}>
+                  {row.change}
+                </td>
+                <td>{row.difficulty}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
     </section>
   );
 }

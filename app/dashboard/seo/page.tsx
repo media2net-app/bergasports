@@ -110,28 +110,30 @@ export default function DashboardSeo() {
             <h2>Zoekwoord prestaties</h2>
             <p>Realtime zicht op belangrijke keyword-posities voor Bergasports.</p>
           </header>
-          <table className="keyword-table">
-            <thead>
-              <tr>
-                <th>Zoekwoord</th>
-                <th>Positie</th>
-                <th>Trend</th>
-                <th>Maandvolume</th>
-              </tr>
-            </thead>
-            <tbody>
-              {keywordPerformance.map((row) => (
-                <tr key={row.keyword}>
-                  <td>{row.keyword}</td>
-                  <td>{row.position}</td>
-                  <td className={row.change.startsWith("+") ? "positive" : "negative"}>
-                    {row.change}
-                  </td>
-                  <td>{row.volume}</td>
+          <div className="keyword-table-wrapper">
+            <table className="keyword-table">
+              <thead>
+                <tr>
+                  <th>Zoekwoord</th>
+                  <th>Positie</th>
+                  <th>Trend</th>
+                  <th>Maandvolume</th>
                 </tr>
-              ))}
-            </tbody>
-          </table>
+              </thead>
+              <tbody>
+                {keywordPerformance.map((row) => (
+                  <tr key={row.keyword}>
+                    <td>{row.keyword}</td>
+                    <td>{row.position}</td>
+                    <td className={row.change.startsWith("+") ? "positive" : "negative"}>
+                      {row.change}
+                    </td>
+                    <td>{row.volume}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
         </article>
 
         <article className="insight-card">

@@ -243,6 +243,7 @@
   width: 100%;
   border-collapse: collapse;
   font-size: 0.95rem;
+  min-width: 600px;
 }
 
 .keyword-table.wide {
@@ -432,9 +433,11 @@
   gap: 1rem;
   flex-wrap: wrap;
   margin-top: 0.5rem;
+  align-items: center;
 }
 
-.seo-detail footer .actions button {
+.seo-detail footer .actions button,
+.publish-button {
   border: 1px solid rgba(212, 175, 56, 0.4);
   border-radius: 12px;
   padding: 0.75rem 1.4rem;
@@ -445,9 +448,40 @@
   transition: background 160ms ease, transform 160ms ease;
 }
 
-.seo-detail footer .actions button:hover {
+.seo-detail footer .actions button:hover,
+.publish-button:hover {
   background: rgba(212, 175, 56, 0.18);
   transform: translateY(-1px);
+}
+
+.publish-button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+  transform: none;
+  box-shadow: none;
+}
+
+.publish-button.published:disabled {
+  opacity: 1;
+  cursor: default;
+}
+
+.publish-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+}
+
+.publish-message {
+  font-size: 0.85rem;
+}
+
+.publish-message.success {
+  color: rgba(120, 255, 180, 0.85);
+}
+
+.publish-message.error {
+  color: rgba(255, 120, 120, 0.88);
 }
 
 .seo-detail .cta-banner {
@@ -703,9 +737,39 @@
   font-size: 0.95rem;
 }
 
+/* Allow wide tables to scroll on smaller screens */
+.keyword-table-wrapper {
+  width: 100%;
+  overflow-x: auto;
+}
+
+.keyword-table-wrapper::-webkit-scrollbar {
+  height: 6px;
+}
+
+.keyword-table-wrapper::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.18);
+  border-radius: 999px;
+}
+
 @media (max-width: 960px) {
   .dashboard {
     grid-template-columns: minmax(220px, 30%) 1fr;
+  }
+}
+
+@media (max-width: 900px) {
+  .content {
+    padding: 2.5rem clamp(1.75rem, 5vw, 2.5rem) 3rem;
+  }
+
+  .hero {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .score-card {
+    width: 100%;
   }
 }
 
@@ -719,6 +783,11 @@
     align-items: center;
     gap: 1.5rem;
     overflow-x: auto;
+    padding: 1.6rem 1.25rem;
+  }
+
+  .brand img {
+    max-width: 150px;
   }
 
   .sidebar nav ul {
@@ -730,6 +799,63 @@
   .sidebar-footer {
     display: none;
   }
+
+  .content {
+    padding: 2.3rem 1.5rem 2.8rem;
+    gap: 2.25rem;
+  }
+
+  .stats-grid,
+  .activity-grid,
+  .insights,
+  .generator,
+  .seo-summary,
+  .seo-metrics,
+  .seo-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .generator-form {
+    padding: 1.6rem;
+  }
+
+  .insight-card,
+  .stat-card,
+  .seo-metric-card,
+  .seo-summary-card {
+    padding: 1.4rem;
+  }
+
+  .section-header h1,
+  .seo-hero h1 {
+    font-size: 2rem;
+  }
+
+  .hero h1 {
+    font-size: 2.1rem;
+  }
+
+  .hero p,
+  .section-header p,
+  .seo-hero p {
+    max-width: none;
+  }
+
+  .seo-detail .cta-banner {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .seo-detail footer .actions {
+    width: 100%;
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .seo-detail footer .actions button {
+    width: 100%;
+    text-align: center;
+  }
 }
 
 @media (min-width: 1200px) {
@@ -740,4 +866,68 @@
   .activity-grid {
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
+}
+
+@media (max-width: 540px) {
+  .content {
+    padding: 2rem 1.25rem 2.4rem;
+  }
+
+  .hero h1 {
+    font-size: 1.9rem;
+  }
+
+  .section-header h1,
+  .seo-hero h1 {
+    font-size: 1.85rem;
+  }
+
+  .score-card strong,
+  .stat-value,
+  .seo-metric-card strong,
+  .seo-summary-card strong {
+    font-size: 1.75rem;
+  }
+
+  .score-card,
+  .generator-form,
+  .insight-card {
+    border-radius: 18px;
+  }
+
+  .seo-detail .meta {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .seo-detail .google-preview {
+    padding: 1rem 1.2rem;
+  }
+}
+
+@media (max-width: 420px) {
+  .content {
+    padding: 1.8rem 1.1rem 2.2rem;
+  }
+
+  .hero p,
+  .section-header p,
+  .seo-hero p {
+    font-size: 0.95rem;
+  }
+
+  .stat-card,
+  .seo-metric-card,
+  .insight-card,
+  .generator-form {
+    gap: 0.75rem;
+  }
+}
+
+.keyword-table tr.published {
+  background: rgba(49, 196, 141, 0.12);
+}
+
+.keyword-table tr.published:hover {
+  background: rgba(49, 196, 141, 0.18);
 }

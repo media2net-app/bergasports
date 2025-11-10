@@ -12,15 +12,15 @@ export type SeoContentItem = {
 export const seoContentItems: SeoContentItem[] = [
   {
     id: 1,
-    title: "Gids: Kies de beste wielrenschoenen voor voorjaar 2025",
+    title: "Beste wielrenschoenen voor voorjaar 2026",
     category: "Wielrenschoenen",
     keywords: "verducci, nimbl, carbon zool",
     format: "Blogartikel",
-    metaTitle: "Beste wielrenschoenen 2025 kopen? | Verducci & Nimbl bij Bergasports",
+    metaTitle: "Beste wielrenschoenen 2026 kopen? | Verducci & Nimbl bij Bergasports",
     metaDescription:
       "Ontdek welke handgemaakte wielrenschoenen jou dit voorjaar sneller maken. Vergelijk Verducci en Nimbl, krijg onderhoudstips en plan direct een pasafspraak bij Bergasports.",
     content: `## Introductie
-Het voorjaar van 2025 staat voor de deur en dat betekent langere dagen, betere trainingsomstandigheden en een nieuw doel om jezelf te verbeteren op de fiets. Wielrenschoenen spelen daarin een beslissende rol. Ze vormen het contactpunt tussen jouw spieren en de kracht die uiteindelijk het asfalt raakt. Bij Bergasports zien we dagelijkse vragen van rijders die twijfelen tussen premium collecties zoals Verducci en Nimbl. In dit uitgebreide dossier leggen we uit waarop je moet letten, hoe je de perfecte pasvorm regelt en hoe je schoenen onderhoudt zodat je prestaties constant blijven. Deze gids is met meer dan duizend woorden de meest volledige bron voor nieuwe wielrenschoenen in Nederland.
+Het voorjaar van 2026 staat voor de deur en dat betekent langere dagen, betere trainingsomstandigheden en een nieuw doel om jezelf te verbeteren op de fiets. Wielrenschoenen spelen daarin een beslissende rol. Ze vormen het contactpunt tussen jouw spieren en de kracht die uiteindelijk het asfalt raakt. Bij Bergasports zien we dagelijkse vragen van rijders die twijfelen tussen premium collecties zoals Verducci en Nimbl. In dit uitgebreide dossier leggen we uit waarop je moet letten, hoe je de perfecte pasvorm regelt en hoe je schoenen onderhoudt zodat je prestaties constant blijven. Deze gids is met meer dan duizend woorden de meest volledige bron voor nieuwe wielrenschoenen in Nederland.
 
 ## Waarom wielrenschoenen zo belangrijk zijn
 Een goede wielrenschoen doet veel meer dan er strak uitzien. Het draait om efficiëntie, comfort en duurzaamheid. Wanneer jij tijdens een sprint 1.000 watt trapvermogen produceert, wil je dat geen enkel watt verloren gaat door een zachte zool of een instabiele pasvorm. Carbon zolen verdelen de druk over de gehele voet, waardoor je niet alleen harder rijdt, maar ook minder snel last krijgt van tintelende tenen of hotspots. Bovendien spelen aerodynamica en gewicht een rol. Waar traditionele schoenen rond de 320 gram per schoen wegen, zitten Verducci en Nimbl modellen vaak onder de 250 gram. Dat scheelt bij elke klim of acceleratie.
@@ -90,7 +90,7 @@ Heb je na het lezen van deze gids zin gekregen om de gouden Verducci of de licht
   },
   {
     id: 2,
-    title: "SEO landingspagina: Cipollini racefietsen op maat",
+    title: "Cipollini racefietsen op maat (SEO landingspagina)",
     category: "Racefietsen",
     keywords: "cipollini, custom racefiets, bergasports",
     format: "Landingspagina",
@@ -175,7 +175,7 @@ Ben je klaar voor een custom Cipollini die perfect bij jouw doelen past? Plan da
   },
   {
     id: 3,
-    title: "Vergelijking: Aero wielset vs klimwielen",
+    title: "Aero of klimwielen? Zo maak je de keuze",
     category: "Wielen",
     keywords: "scope wheels, campagnolo, lichtgewicht wielen",
     format: "Blogartikel",
@@ -288,7 +288,7 @@ Plan vervolgartikelen zoals "Hoe kies je banden voor een aero wielset" of "Check
   },
   {
     id: 4,
-    title: "Review: Ride 100% Speedcraft sportbril",
+    title: "Ride 100% Speedcraft sportbril review",
     category: "Brillen",
     keywords: "ride 100%, sportbril, peter sagan",
     format: "Productreview",
@@ -385,7 +385,7 @@ Tijdens onze jaarlijkse strandrace testte Team Bergasports de Speedcraft in stor
   },
   {
     id: 5,
-    title: "Handleiding: Powerslide skeelers onderhouden",
+    title: "Zo onderhoud je Powerslide skeelers",
     category: "Skeelers",
     keywords: "powerslide, onderhoud skeelers, bearings",
     format: "How-to",
@@ -468,7 +468,7 @@ Heb je hulp nodig bij het onderhouden van je Powerslide skeelers? Plan dan een s
 - **BOA-sluiting loopt stroef**: Reinig de kabeltjes met een droge doek en vervang ze tijdig.
 
 ## Klantverhalen
-De jeugdploeg van Schaatsvereniging Dedemsvaart volgt elk kwartaal onze onderhoudsworkshop. Sindsdien gaan lagers twee keer zo lang mee en hebben ze minder downtime. Recreant Monique merkte dat een eenvoudige rotatie van de wielen haar stabiliteit direct verbeterde. Deze voorbeelden tonen dat regelmatig onderhoud loont en blessures voorkomt.
+De jeugdploeg van Schaatsvereniging Dedemsvaart volgt elk kwartaal onze onderhoudsworkshop. Sindsdien gaan lagers twee keer zo lang mee en hebben ze minder downtime. Recreant Monique merkte dat een eenvoudige rotatie van de wielen haar stabiliteit in bochten direct verbeterde. Deze voorbeelden tonen dat regelmatig onderhoud loont en blessures voorkomt.
 
 ## Aanvullende resources
 Download onze onderhoudsgids als PDF voor een overzicht van alle stappen en tools. Luister naar de Bergasports podcast waarin mecaniciens vertellen over hun favoriete onderhoudsproducten. Door verschillende formats aan te bieden bereik je zowel visuele als auditieve leerlingen en vergroot je de kans dat klanten het onderhoud daadwerkelijk uitvoeren.
@@ -484,25 +484,108 @@ De jeugdploeg van Schaatsvereniging Dedemsvaart volgt elk kwartaal onze onderhou
   },
   {
     id: 6,
-    title: "SEO-structuur voor deze review",
+    title: "SEO-structuur voor een productreview",
     category: "Brillen",
     keywords: "Ride 100% Speedcraft review, beste wielrenbril, sportbril met HiPER lens",
     format: "Productreview",
-    metaTitle: "Ride 100% Speedcraft review | Sportbrillen bij Bergasports",
+    metaTitle: "SEO-structuur voor productreviews | Bergasports",
     metaDescription:
-      "Ontdek waarom de Ride 100% Speedcraft bril favoriet is onder wielrenners. Features, lenzen en voorraad bij Bergasports.",
-    content: `## SEO-structuur voor deze review
-Focus op zoekwoorden zoals "Ride 100% Speedcraft review", "beste wielrenbril" en "sportbril met HiPER lens". Plaats de hoofdterm in de H1 en gebruik H2's voor subtopics zoals lenstechnologie en ventilatie. Interne links naar de accessoirescategorie en naar de blog over helmkeuze helpen zoekmachines de context te begrijpen. Voeg een FAQ-schema toe op basis van de veelgestelde vragen voor kans op rich results.
+      "Stapsgewijze SEO-structuur voor een productreview over de Ride 100% Speedcraft, inclusief voorbeeldkoppen, contentblokken en schema markup.",
+    content: `## Waarom een stevige SEO-structuur cruciaal is
+Een productreview die hoog wil scoren in Google moet méér zijn dan een enthousiaste samenvatting. Zoekmachines willen structuur, volledigheid en bewijs van expertise zien. In dit artikel laten we stap voor stap zien hoe we een review van de Ride 100% Speedcraft sportbril opbouwen zodat hij aansluit op de intentie van de zoeker én converteert naar verkoop in de webshop van Bergasports. We werken met concrete modules, vullen ze met inhoudelijke informatie en koppelen ze aan interne links en schema markup.
 
-### Contentblokindeling
-- Hero-intro met USP's en social proof.
-- Technische specificaties in tabelvorm.
-- Lensgids per weersomstandigheid.
-- Combinatieadvies met helmen en kleding.
-- Conclusie met overtuigende CTA.
+## Onderzoek naar zoekintenties
+Start elk reviewproject met een inventarisatie van zoekintenties:
+- **Informerende gebruiker**: zoekt naar "Ride 100% Speedcraft review" of "beste wielrenbril" en wil weten of het product de investering waard is.
+- **Vergelijkende gebruiker**: zoekt naar termen als "Ride 100% vs Oakley Sutro" of "HiPER lens voordelen" en verwacht duidelijke vergelijkingen.
+- **Kopende gebruiker**: typt "Ride 100% Speedcraft kopen" en wil voorraad, prijs en levertermijn zien.
 
-## Contentpromotie
-Plan Instagram Reels waarin het lenswisselen wordt getoond. Publiceer een nieuwsbrief waarin je de belangrijkste verschillen met concurrenten uitlegt. In de webshop kun je dynamische bundels configureren (bril + helm + schoonmaakset) en deze pagina als hoofdbestemming gebruiken. Zo creëer je interne linkwaarde en conversie.`,
+We verwerken deze intenties in onze contentblokken zodat elke doelgroep binnen één pagina een antwoord krijgt.
+
+## Structuur van de hoofdsecties
+Gebruik de hoofdzoekterm in de H1: Ride 100% Speedcraft sportbril review. Daaronder plaatsen we vijf pijlers:
+1. **Hero en USP's** – korte introductie met een productfoto, trust-icons (bijv. "populair bij WorldTour renners") en een snelle CTA naar de webshop.
+2. **Specificaties en bouwkwaliteit** – tabel met gewicht, lensbreedte, materiaal en inbegrepen accessoires.
+3. **Lens- en technologieanalyse** – bespreek HiPER-technologie, ventilatiekanalen en beschikbare lensopties, inclusief VLT-percentages.
+4. **Gebruiks- en stijladvies** – laat zien hoe de bril combineert met Kask- en Lazer-helmen, geef stylingtips en deel feedback van klanten.
+5. **Vergelijkingen en alternatieven** – vergelijk de Speedcraft met modellen als Oakley Sutro en Rudy Project Cutline.
+
+Sluit het artikel af met een overtuigende conclusie en een inline formulier of CTA-button naar de webshop.
+
+## Contentblokken in detail
+### Hero-introductie
+- Eén alinea van 80-100 woorden die uitlegt voor wie de bril bedoeld is.
+- Bulletlist met drie highlights (bijvoorbeeld HiPER-lenzen, panoramisch zicht, grip).
+- Knop: "Bekijk voorraad in Dedemsvaart" die naar de productpagina linkt.
+
+### Technische specificaties
+Plaats een tabel met kolommen voor component, detail en voordeel. Voeg aansluitend een paragraaf toe waarin een mecanicien uitlegt waarom bepaalde specificaties ertoe doen. Denk aan het voordeel van een TR90-frame bij koude ritten.
+
+### Lensgids per scenario
+Maak een matrix met seizoenen als kolommen en lensopties als rijen. Leg uit welke HiPER-lens je kiest bij zon, schemer of regen. Voeg interne links toe naar lenzen in de webshop.
+
+### Pasvorm en comfort
+Beschrijf de verstelbare neusbruggen, rubberen oorpootjes en het gewicht per maat. Voeg citaten toe van klanten die het product getest hebben tijdens criteriums, strandraces en inline-skate-trainingen.
+
+### Combinatieadvies
+Toon foto's of illustraties van de bril in combinatie met populaire helmen en Lafuga-kleding. Link intern naar die productcategorieën.
+
+### Vergelijkingsblok
+Gebruik een tabel met drie kolommen (Speedcraft, Oakley Sutro, Rudy Project Cutline) en vergelijk per rij lensopties, gewicht, prijs en doelgroep. Schrijf daarna een toelichting die de Speedcraft positioneert als allround topper.
+
+### FAQ-sectie
+Selecteer vragen die we vaak krijgen in de winkel:
+- Beschermt de bril tegen zand en spray tijdens strandraces?
+- Welke lens gebruik ik in de winter?
+- Is er een XS-variant voor smallere gezichten?
+- Hoe onderhoud ik de lenzen zonder de coating te beschadigen?
+
+Beantwoord elke vraag in 80-100 woorden en verwijder marketingtaal. Deze antwoorden gebruiken we ook als input voor FAQ schema.
+
+## On-page SEO elementen
+- **Title tag**: "Ride 100% Speedcraft review – HiPER lens test & koopadvies".
+- **Meta description**: 150-160 tekens met de belangrijkste voordelen en een CTA.
+- **URL**: /blog/ride-100-speedcraft-review.
+- **OG tags**: gebruik een hero-visual en een beschrijving gericht op social clicks.
+
+Voeg breadcrumbs toe (Home > Blog > Sportbrillen > Ride 100% Speedcraft review) zodat Google de hiërarchie begrijpt.
+
+## Interne linkstrategie
+Link vanuit de review naar:
+- De productcategorie Sportbrillen en specifieke productdetailpagina's.
+- Een blog over helmkeuze zodat lezers doorstromen naar aanverwante content.
+- Een onderhoudsgids voor lenzen.
+- De afspraakmodule voor een pasmoment in Dedemsvaart.
+
+Andersom linken we vanaf de productpagina en de accessoires naar de review voor extra autoriteit.
+
+## Schema markup en rich results
+Integreer Product schema met prijs, beschikbaarheid en een aggregate rating. Voeg FAQPage schema toe op basis van de vragen hierboven. Voor tutorials over lenswissel gebruiken we een embedded video met VideoObject schema, zodat de review kans maakt op videofragmenten in de SERP.
+
+## Conversie-elementen
+Plaats een sticky CTA op mobiel met "Plan pasmoment" en een secundaire knop "Koop nu". Gebruik trust-elementen zoals klantreviews en keurmerken (bijv. WebwinkelKeur). Voeg een blok toe waarin we uitleggen dat klanten in de winkel gratis lenswissellessen krijgen.
+
+## Contentonderhoud en updates
+Plan elk kwartaal een refresh:
+- Controleer of lenskleuren of limited editions zijn aangepast.
+- Voeg nieuwe klantcases of quotes toe.
+- Actualiseer prijzen en voorraadstatus.
+- Update interne links wanneer nieuwe productlijnen live gaan.
+
+Gebruik Google Search Console om te analyseren op welke aanvullende zoektermen de pagina scoort en verwerk die in nieuwe paragrafen.
+
+## Promotieplan
+1. **Nieuwsbrief**: teaser met de belangrijkste conclusies en een link naar de review.
+2. **Instagram Reels**: korte video over lenswisselen en ventilatie.
+3. **YouTube**: langere review waarin een specialist de bril test tijdens een rit.
+4. **LinkedIn**: artikel over de samenwerking tussen Bergasports en 100% binnen de marketingcommunity.
+5. **Point-of-sale**: QR-code op de brillenwand zodat winkelklanten direct naar de review kunnen navigeren.
+
+## Meetplan
+Zet doelen in GA4 voor klikken op "Koop nu" en "Plan pasmoment". Monitor microconversies zoals downloads van de lensgids of het bekijken van embedded video's. Gebruik heatmaps om te zien of bezoekers de FAQ lezen; zo niet, verplaats deze hoger op de pagina.
+
+## Samenvatting
+Met deze structuur heeft Bergasports een blauwdruk voor iedere toekomstige productreview. We combineren diepgaande informatie, duidelijke navigatie en conversie-elementen. Door elk kwartaal te optimaliseren en de review te koppelen aan andere contentformats blijven we relevant voor zowel zoekmachines als klanten.`,
   },
   {
     id: 14,
@@ -646,7 +729,7 @@ Twijfel je tussen twee Double FF frames? Neem contact op met Bergasports via inf
   },
   {
     id: 9,
-    title: "Gravelbike inventory update: Orbea Terra",
+    title: "Orbea Terra gravelbike voorraadupdate",
     category: "Gravelbikes",
     keywords: "orbea terra voorraad, gravelbike Dedemsvaart, orbea terra 2025",
     format: "Blogartikel",

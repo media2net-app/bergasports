@@ -1,11 +1,5 @@
-import Link from "next/link";
 import { seoContentItems } from "./data";
-
-const WORD_TARGET = 1000;
-
-function getWordCount(content: string) {
-  return content.split(/\s+/).filter(Boolean).length;
-}
+import { SeoContentTable } from "./SeoContentTable";
 
 function getCharacterCount(content: string) {
   return content.length;
@@ -41,36 +35,7 @@ export default function DashboardSeoContent() {
         </article>
       </div>
 
-      <table className="keyword-table wide">
-        <thead>
-          <tr>
-            <th>Titel</th>
-            <th>Categorie</th>
-            <th>Focus zoekwoorden</th>
-            <th>Type content</th>
-            <th>Lengte</th>
-          </tr>
-        </thead>
-        <tbody>
-          {seoContentItems.map((item) => {
-            const wordCount = getWordCount(item.content);
-            const meetsTarget = wordCount >= WORD_TARGET;
-            return (
-              <tr key={item.id}>
-                <td>
-                  <Link href={`/dashboard/seo-content/${item.id}`}>{item.title}</Link>
-                </td>
-                <td>{item.category}</td>
-                <td>{item.keywords}</td>
-                <td>{item.format}</td>
-                <td className={meetsTarget ? "metric-ok" : "metric-warn"}>
-                  {wordCount.toLocaleString("nl-NL")}
-                </td>
-              </tr>
-            );
-          })}
-        </tbody>
-      </table>
+      <SeoContentTable items={seoContentItems} />
     </section>
   );
 }

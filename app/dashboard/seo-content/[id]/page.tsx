@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
+import { PublishButton } from "@/components/PublishButton";
 import { getSeoContentItem, seoContentItems } from "../data";
 
 type Params = {
@@ -155,7 +156,14 @@ export default function SeoContentDetail({ params }: Params) {
         </div>
         <div className="actions">
           <button type="button">Exporteer als Markdown</button>
-          <button type="button">Publiceer naar CMS</button>
+          <PublishButton
+            itemId={item.id}
+            payload={{
+              title: item.title,
+              content: item.content,
+              excerpt: item.metaDescription
+            }}
+          />
         </div>
       </footer>
     </article>

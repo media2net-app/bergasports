@@ -11,6 +11,8 @@ const navLinks = [
   { label: "Overzicht", href: "/dashboard" },
   { label: "SEO Inzichten", href: "/dashboard/seo" },
   { label: "Keyword Tracking", href: "/dashboard/keywords" },
+  { label: "SEA Campagnes", href: "/dashboard/sea" },
+  { label: "SEA AI Analyse", href: "/dashboard/sea-ai" },
   { label: "SEO Content AI", href: "/dashboard/seo-content" },
   { label: "SEO AI Generator", href: "/dashboard/generator" }
 ] satisfies Array<{ label: string; href: Route }>;
