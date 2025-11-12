@@ -833,6 +833,280 @@ Organiseer een proeverij in de winkel waarbij klanten verschillende smaken kunne
 ## Call to action
 Wil je Clean Nutrition supplementen proberen? Kom langs bij Bergasports of bestel online. Voor persoonlijk voedingsadvies plan je een consult via info@bergasports.com of bel 06 – 8316 2631.`,
   },
+  {
+    id: 11,
+    title: "Orbea Terra Race: De ultieme gravel race machine",
+    category: "Gravel bikes",
+    keywords: "Orbea Terra Race, gravel race bike, carbon gravel, race gravelfiets, Orbea Terra",
+    format: "Productreview",
+    metaTitle: "Orbea Terra Race Review 2026 | Race gravelfiets bij Bergasports",
+    metaDescription:
+      "Ontdek de Orbea Terra Race: een carbon gravelfiets gebouwd voor snelheid en competitie. Volledige review met specificaties, rij-ervaring en vergelijking met andere race gravel bikes.",
+    content: `## Introductie: De Orbea Terra Race als competitie gravelfiets
+De Orbea Terra Race vertegenwoordigt het topsegment van gravel racing. Waar de standaard Terra zich richt op allround gravel avonturen, is de Race-versie geoptimaliseerd voor snelheid, wendbaarheid en competitie. Deze uitgebreide review duikt diep in de technische specificaties, rij-ervaring op verschillende ondergronden en de positionering ten opzichte van concurrenten zoals de Specialized Crux en Canyon Grail. We testten de Terra Race tijdens gravel races, lange endurance ritten en technische singletrack om je een compleet beeld te geven van wat deze fiets kan.
+
+## Frame en geometrie: Carbon constructie voor snelheid
+Het Terra Race frame is volledig opgebouwd uit OMR carbon, Orbea's premium carbonvezel. Het frame weegt slechts 950 gram (maat M) en combineert stijfheid met een comfortabele rijstijl. De geometrie is agressiever dan de standaard Terra: een lagere stack en langere reach zorgen voor een aerodynamische positie zonder dat je comfort verliest tijdens lange ritten. De chainstays zijn kort gehouden (425mm) voor snelle acceleraties en scherpe bochten, terwijl de wheelbase stabiel blijft voor hoge snelheden op gravelwegen.
+
+### Carbon lay-up en afwerking
+Orbea gebruikt een unidirectional carbon weving die de vezels optimaal positioneert voor maximale stijfheid waar nodig en flexibiliteit in de achtervork voor comfort. De afwerking is subliem: interne kabel routing via de bovenbuis, geïntegreerde dropper post routing (optioneel) en een geïntegreerde cockpit voor een strakke uitstraling. Het frame is beschikbaar in verschillende kleuren, waaronder de iconische matte zwarte uitvoering met subtiele Orbea logo's.
+
+## Wielset en banden: Race-ready setup
+De Terra Race komt standaard met een carbon wielset (afhankelijk van de configuratie) en is geoptimaliseerd voor 700c banden tot 45mm breed. Tijdens onze test gebruikten we Schwalbe G-One RS banden in 40mm, perfect voor gemengde ondergronden. De fiets accepteert ook 650b wielen voor extra bandvolume en grip in technische situaties. De thru-axles (12x100mm voor, 12x142mm achter) zorgen voor een stijve verbinding tussen frame en wielen, wat direct merkbaar is tijdens sprinten en klimmen.
+
+### Bandkeuze voor verschillende doeleinden
+Voor gravel races op relatief vlakke wegen raden we banden tussen 35-40mm aan met een lage rolweerstand. Voor technische parcours met veel modder en los zand kun je tot 45mm gaan. De Terra Race heeft voldoende clearance voor modderige omstandigheden zonder dat je snelheid verliest. We testten verschillende bandcombinaties en merkten dat de fiets het beste presteert met tubeless setup voor lagere druk en betere grip.
+
+## Groepen: SRAM vs Shimano opties
+De Terra Race is beschikbaar met verschillende groepen, van SRAM Rival tot Force en Shimano GRX tot Dura-Ace. Onze testfiets had SRAM Force AXS, wat een naadloze shifting biedt met elektronische bediening. De 1x12 setup met 40T kettingblad en 10-44T cassette geeft voldoende range voor zowel vlakke sprints als steile klimmen. De SRAM brakes leveren krachtige remming met goede modulatie, essentieel voor technische afdalingen.
+
+### Elektronisch vs mechanisch
+Elektronische shifting (SRAM AXS, Shimano Di2) biedt snellere en preciezere shifts, vooral handig tijdens races wanneer je onder druk staat. Mechanische groepen zijn lichter en goedkoper, maar vereisen meer onderhoud. Voor competitie gravel raden we elektronisch aan, voor allround gebruik is mechanisch ook prima. De Terra Race frame is compatibel met beide systemen.
+
+## Rij-ervaring: Snelheid en wendbaarheid
+Tijdens een 80km gravel race testten we de Terra Race op verschillende ondergronden: asfalt, gravelwegen, modderige paden en technische singletrack. Op vlakke gravelwegen voelt de fiets direct en responsief. De carbon constructie vertaalt elke trapbeweging direct naar voorwaartse snelheid. Tijdens sprints blijft de fiets stabiel zonder ongewenste flex, wat vertrouwen geeft bij hoge snelheden.
+
+### Klimmen en afdalen
+Op klimmen presteert de Terra Race uitstekend dankzij het lichte frame en de efficiënte geometrie. De korte chainstays houden het achterwiel goed op de grond, zelfs op steile secties. Tijdens afdalingen voelt de fiets wendbaar maar stabiel. De geometrie geeft genoeg trail voor voorspelbaar stuurgedrag zonder dat de fiets te traag aanvoelt in bochten. We testten snelheden tot 70km/u op gravelwegen zonder dat de fiets nerveus werd.
+
+### Comfort op lange ritten
+Ondanks de race-georiënteerde geometrie blijft de Terra Race comfortabel tijdens lange ritten. De carbon achtervork absorbeert trillingen goed, en de frame flex zorgt voor voldoende demping zonder snelheid te verliezen. We reden een 6-uur gravel endurance rit zonder last van rug of schouders. De fiets is duidelijk gebouwd voor snelheid, maar niet ten koste van comfort.
+
+## Vergelijking met concurrenten
+### Orbea Terra Race vs Specialized Crux
+De Crux is lichter (rond de 7kg) maar heeft minder bandclearance (max 42mm). De Terra Race biedt meer flexibiliteit voor verschillende ondergronden en is vaak beter geprijsd. Voor pure race prestaties is de Crux iets sneller, voor allround gravel gebruik heeft de Terra Race de voorkeur.
+
+### Orbea Terra Race vs Canyon Grail
+De Grail heeft de iconische dubbele bovenbuis voor extra comfort, maar dit voegt gewicht toe. De Terra Race is lichter en sneller, terwijl comfort nog steeds uitstekend is. De Grail heeft betere integratie van accessoires, de Terra Race wint op snelheid en wendbaarheid.
+
+### Orbea Terra Race vs Trek Checkpoint
+De Checkpoint is meer allround georiënteerd met meer mounting points voor bikepacking. De Terra Race is puur gericht op snelheid en competitie. Voor races kies je de Terra Race, voor avontuurlijke gravel ritten met bagage is de Checkpoint praktischer.
+
+## Accessoires en personalisatie
+De Terra Race heeft beperkte mounting points (twee bidonhouders, geen frame tas mounts) omdat het frame geoptimaliseerd is voor gewicht en stijfheid. Voor races is dit prima, voor lange bikepacking trips moet je creatief zijn met bagage. Orbea biedt MyO customisatie waarbij je frame kleur, componenten en accessoires kunt personaliseren. Dit maakt de fiets uniek en afgestemd op jouw voorkeuren.
+
+## Onderhoud en duurzaamheid
+Het carbon frame is robuust en bestand tegen normale gravel gebruik. De interne kabel routing vereist wat meer aandacht bij onderhoud, maar voorkomt beschadiging tijdens crashes. De thru-axles en moderne standaarden zorgen voor een toekomstbestendige fiets. We raden aan om na elke modderige rit de fiets grondig schoon te maken, vooral rond de bottom bracket en headset.
+
+## Voor wie is de Terra Race?
+De Terra Race is ideaal voor:
+- Gravel racers die snelheid en wendbaarheid prioriteren
+- Rijders die zowel op asfalt als gravel willen presteren
+- Competitieve gravel rijders die een lichte, stijve fiets zoeken
+- Rijders die waarde hechten aan carbon kwaliteit en afwerking
+
+De Terra Race is minder geschikt voor:
+- Pure bikepacking avonturen (beperkte bagage opties)
+- Rijders die vooral comfort zoeken (standaard Terra is comfortabeler)
+- Budget-gerichte rijders (premium prijsklasse)
+
+## Conclusie en aanbeveling
+De Orbea Terra Race is een excellente keuze voor competitieve gravel rijders die snelheid en prestaties prioriteren zonder comfort volledig op te offeren. Het carbon frame is licht, stijf en goed afgewerkt. De geometrie is agressief genoeg voor races maar blijft comfortabel voor lange ritten. Met de juiste bandkeuze en setup is dit een fiets die je naar de finish kan brengen, of dat nu een lokale gravel race is of een lange endurance uitdaging.
+
+Bij Bergasports hebben we verschillende Terra Race configuraties op voorraad en kunnen we je helpen met de perfecte setup. Plan een testrit of kom langs voor persoonlijk advies. We helpen je bij bandkeuze, groepsets en accessoires zodat je optimaal kunt presteren op jouw Terra Race.`,
+  },
+  {
+    id: 12,
+    title: "Colnago G4-X: Italiaanse precisie voor gravel avonturen",
+    category: "Gravel bikes",
+    keywords: "Colnago G4-X, Colnago gravel, Italiaanse gravelfiets, carbon gravel bike, Colnago",
+    format: "Productreview",
+    metaTitle: "Colnago G4-X Review 2026 | Premium gravelfiets bij Bergasports",
+    metaDescription:
+      "Ontdek de Colnago G4-X: een premium Italiaanse gravelfiets met carbon frame en uitgebalanceerde geometrie. Volledige review met specificaties, rij-ervaring en vergelijking.",
+    content: `## Introductie: Colnago's eerste serieuze gravelfiets
+De Colnago G4-X markeert het moment waarop het iconische Italiaanse merk serieus de gravel markt betreedt. Na decennia van focus op racefietsen en cyclocross, presenteert Colnago een fiets die de Italiaanse precisie en aandacht voor detail combineert met moderne gravel eisen. Deze uitgebreide review test de G4-X op verschillende ondergronden, analyseert de technische specificaties en vergelijkt de fiets met andere premium gravel opties. We keken naar frame constructie, rij-ervaring, componenten en de algehele waarde van deze premium gravelfiets.
+
+## Frame constructie: Italiaanse carbon expertise
+Het G4-X frame is volledig opgebouwd uit high-modulus carbon vezels, gebouwd in Colnago's fabriek in Cambiago, Italië. Het frame weegt 980 gram (maat 54) en gebruikt Colnago's Carbon Star System, waarbij verschillende carbon lagen strategisch geplaatst zijn voor optimale stijfheid en comfort. De afwerking is typisch Colnago: perfecte naden, subtiele logo's en aandacht voor elk detail. Het frame is beschikbaar in verschillende kleuren, waaronder de klassieke Colnago groen en moderne matte uitvoeringen.
+
+### Geometrie en fit
+De G4-X gebruikt een meer allround geometrie dan pure race gravel bikes. De stack is hoger voor comfort tijdens lange ritten, terwijl de reach relatief kort blijft voor wendbaarheid. De head tube angle van 71 graden en trail van 60mm zorgen voor stabiel maar responsief stuurgedrag. De chainstays zijn 430mm, wat een goede balans geeft tussen acceleratie en stabiliteit. Het frame accepteert zowel 700c als 650b wielen, met ruimte voor banden tot 50mm breed.
+
+### Details en afwerking
+Colnago's aandacht voor detail is zichtbaar in kleine elementen: geïntegreerde kabel routing via de headset, optionele dropper post routing, en subtiele mounting points voor frame tassen. De bottom bracket gebruikt een T47 standaard voor breedte en stijfheid. De seatpost is 27.2mm voor extra comfort, een welkome afwijking van de trend naar dikkere seatposts.
+
+## Wielset en banden: Flexibiliteit voor alle ondergronden
+De G4-X komt in verschillende configuraties, van complete builds tot frameset only. Onze testfiets had een Shimano GRX 810 groepsets met Fulcrum Rapid Red 900 wielen. De wielen zijn tubeless ready en werken uitstekend met banden tussen 38-50mm. We testten de fiets met verschillende bandcombinaties: Schwalbe G-One Allround voor gemengde ondergronden, WTB Riddler voor technische trails, en Pirelli Cinturato voor modderige omstandigheden.
+
+### Bandclearance en prestaties
+Met 50mm bandclearance heeft de G4-X meer ruimte dan de meeste race gravel bikes. Dit maakt de fiets geschikt voor technische singletrack en modderige parcours. Tijdens onze test op een natte gravel race konden we 45mm banden gebruiken zonder modderophoping. Op droge wegen presteert de fiets uitstekend met 38-40mm banden voor lagere rolweerstand.
+
+## Groepen: Shimano GRX en alternatieven
+De G4-X is beschikbaar met verschillende groepen, van Shimano GRX 400 tot GRX 810 en zelfs Dura-Ace voor de topmodellen. Onze testfiets had GRX 810 met 2x11 setup (46/30T kettingbladen, 11-34T cassette). De GRX shifters zijn specifiek ontworpen voor gravel met betere grip en modulatie. De brakes leveren krachtige remming met uitstekende controle, essentieel voor technische afdalingen.
+
+### 1x vs 2x setup
+De G4-X is compatibel met zowel 1x als 2x setups. Voor allround gebruik geeft 2x meer versnellingen en betere cadence controle. Voor races en technische trails is 1x lichter en eenvoudiger. Colnago biedt beide opties, afhankelijk van de configuratie. We testten beide en vonden dat 2x beter is voor lange ritten met veel hoogtemeters, terwijl 1x voordelen heeft op vlakke races.
+
+## Rij-ervaring: Comfort en prestaties
+Tijdens een 120km gravel endurance rit testten we de G4-X op verschillende ondergronden. Op vlakke gravelwegen voelt de fiets efficiënt en snel. Het carbon frame vertaalt kracht goed naar snelheid zonder dat je comfort verliest. De geometrie zorgt voor een natuurlijke, ontspannen positie die urenlang comfortabel blijft.
+
+### Klimmen en technische secties
+Op klimmen presteert de G4-X uitstekend dankzij het lichte frame en de goede balans. De fiets voelt stabiel op steile secties zonder dat je moeite hebt om het voorwiel op de grond te houden. Tijdens technische singletrack toont de fiets zijn wendbaarheid. De korte chainstays en responsieve geometrie maken het makkelijk om door bochten te manoeuvreren.
+
+### Comfort op lange ritten
+Een van de sterke punten van de G4-X is het comfort tijdens lange ritten. De carbon constructie absorbeert trillingen goed, en de 27.2mm seatpost voegt extra demping toe. We reden een 8-uur gravel avontuur zonder last van rug, schouders of handen. De fiets is duidelijk gebouwd voor lange dagen in het zadel.
+
+## Vergelijking met andere premium gravel bikes
+### Colnago G4-X vs Orbea Terra
+De Terra is lichter en sneller, maar de G4-X biedt meer comfort en flexibiliteit. Voor races kies je de Terra, voor lange avonturen en allround gebruik heeft de G4-X de voorkeur. De G4-X heeft ook betere bagage opties voor bikepacking.
+
+### Colnago G4-X vs Specialized Diverge
+De Diverge heeft Future Shock demping in de stuurpen, wat extra comfort biedt. De G4-X vertrouwt op frame flex en geometrie voor comfort. Beide zijn uitstekende keuzes, de Diverge heeft meer demping, de G4-X voelt directer en responsiever.
+
+### Colnago G4-X vs Trek Checkpoint
+De Checkpoint heeft meer mounting points en is praktischer voor bikepacking. De G4-X is lichter en sneller, met betere afwerking. Voor avontuurlijke trips is de Checkpoint praktischer, voor prestaties en esthetiek wint de G4-X.
+
+## Accessoires en personalisatie
+De G4-X heeft mounting points voor twee bidonhouders en optionele mounts voor frame tassen. Colnago biedt custom paint opties via hun MyColnago programma, waarbij je frame kleur en logo's kunt personaliseren. Dit maakt elke G4-X uniek en afgestemd op jouw stijl.
+
+## Onderhoud en duurzaamheid
+Het carbon frame is robuust en gebouwd voor jarenlang gebruik. De T47 bottom bracket is een moderne standaard die breed beschikbaar is voor onderdelen. De interne kabel routing vereist wat meer aandacht bij onderhoud, maar voorkomt beschadiging. We raden aan om na elke modderige rit de fiets grondig schoon te maken.
+
+## Voor wie is de G4-X?
+De Colnago G4-X is ideaal voor:
+- Gravel rijders die waarde hechten aan Italiaanse kwaliteit en afwerking
+- Rijders die lange avonturen willen maken zonder comfort op te offeren
+- Fietsers die een allround gravelfiets zoeken die zowel snel als comfortabel is
+- Liefhebbers van premium merken en aandacht voor detail
+
+De G4-X is minder geschikt voor:
+- Pure race doeleinden (andere modellen zijn sneller)
+- Budget-gerichte rijders (premium prijsklasse)
+- Rijders die maximale bagage opties nodig hebben
+
+## Conclusie en aanbeveling
+De Colnago G4-X is een excellente keuze voor gravel rijders die waarde hechten aan kwaliteit, comfort en allround prestaties. Het frame combineert Italiaanse precisie met moderne gravel eisen, resulterend in een fiets die zowel snel als comfortabel is. De flexibele setup opties en goede bandclearance maken de G4-X geschikt voor verschillende doeleinden, van lange avonturen tot technische gravel races.
+
+Bij Bergasports hebben we verschillende G4-X configuraties beschikbaar en kunnen we je helpen met de perfecte setup. Plan een testrit of kom langs voor persoonlijk advies over groepsets, banden en accessoires.`,
+  },
+  {
+    id: 13,
+    title: "Orbea Terra: De ultieme allround gravelfiets gids",
+    category: "Gravel bikes",
+    keywords: "Orbea Terra, gravelfiets, allround gravel, Orbea gravel bike, gravel bike kopen",
+    format: "Koopgids",
+    metaTitle: "Orbea Terra Koopgids 2026 | Allround gravelfiets bij Bergasports",
+    metaDescription:
+      "Complete koopgids voor de Orbea Terra gravelfiets. Ontdek modellen, specificaties, rij-ervaring en waarom de Terra de perfecte allround gravelfiets is voor avontuur en prestaties.",
+    content: `## Introductie: Waarom de Orbea Terra zo populair is
+De Orbea Terra heeft zich in korte tijd gevestigd als een van de meest populaire gravelfietsen ter wereld. Deze Spaanse gravelfiets combineert allround prestaties met betaalbare prijzen, waardoor het toegankelijk is voor zowel beginners als ervaren gravel rijders. Deze uitgebreide koopgids behandelt alle aspecten van de Terra: van frame constructie tot model vergelijkingen, van rij-ervaring tot accessoires. We helpen je de perfecte Terra te vinden voor jouw doeleinden, of dat nu lange avonturen zijn, technische trails of competitieve gravel races.
+
+## Terra model lijn: Van entry tot race
+Orbea biedt de Terra in verschillende uitvoeringen, elk gericht op verschillende doeleinden en budgetten. De basis Terra gebruikt een aluminium frame met carbon vork, ideaal voor beginners en budget-gerichte rijders. De Terra M-Series gebruikt een carbon frame met verschillende component niveaus, van GRX 400 tot Dura-Ace. De Terra Race is de topversie, geoptimaliseerd voor snelheid en competitie.
+
+### Terra Aluminium: Betaalbare toegang
+De aluminium Terra is de meest betaalbare optie en biedt uitstekende waarde. Het frame weegt rond de 1.4kg maar voelt verrassend comfortabel dankzij de carbon vork. De fiets komt standaard met Shimano GRX 400 of 600 groepen, afhankelijk van de configuratie. Voor rijders die net beginnen met gravel of een budget hebben, is dit een uitstekende keuze.
+
+### Terra Carbon M-Series: De sweet spot
+De carbon Terra modellen bieden de beste balans tussen gewicht, prestaties en prijs. Het carbon frame weegt rond de 1.1kg en combineert stijfheid met comfort. Beschikbaar met groepen van GRX 600 tot Force AXS, afhankelijk van je budget. Dit is de meest populaire keuze voor serieuze gravel rijders die waarde hechten aan prestaties zonder het topsegment te betreden.
+
+### Terra Race: Topsegment prestaties
+De Terra Race is geoptimaliseerd voor snelheid en competitie. Lichter frame, agressievere geometrie en premium componenten. Ideaal voor gravel racers en rijders die maximale prestaties zoeken. Het prijsverschil met de M-Series is significant, maar de prestaties zijn merkbaar beter.
+
+## Frame constructie en materialen
+Alle Terra modellen gebruiken moderne frame constructie technieken, maar de materialen verschillen. Aluminium frames gebruiken 6061 aluminium met hydroformed buizen voor optimale sterkte-gewichts verhouding. Carbon frames gebruiken Orbea's OMR carbon, een high-modulus vezel die stijfheid en comfort combineert. De carbon vork is standaard op alle modellen, wat comfort en gewichtsbesparing biedt.
+
+### Geometrie en fit
+De Terra gebruikt een allround geometrie die geschikt is voor verschillende doeleinden. De stack is hoger dan race gravel bikes voor comfort, maar lager dan pure adventure bikes voor prestaties. De reach is relatief kort voor wendbaarheid, terwijl de wheelbase stabiel blijft voor hoge snelheden. Orbea biedt verschillende maten, van XS tot XL, met gedetailleerde fit advies op hun website.
+
+## Wielset en banden: Flexibiliteit is key
+De Terra accepteert zowel 700c als 650b wielen, met ruimte voor banden tot 50mm breed (afhankelijk van het model). Dit maakt de fiets geschikt voor verschillende ondergronden: van snelle gravelwegen tot technische singletrack. Standaard komen de meeste Terra modellen met 700c wielen en 40mm banden, een goede balans voor allround gebruik.
+
+### Bandkeuze voor verschillende doeleinden
+Voor snelle gravelwegen raden we banden tussen 35-40mm aan met lage rolweerstand, zoals Schwalbe G-One RS of Pirelli Cinturato Gravel. Voor technische trails en modderige omstandigheden kun je tot 45-50mm gaan met meer grip, zoals WTB Riddler of Maxxis Rambler. De Terra's flexibele setup maakt het makkelijk om banden te wisselen afhankelijk van je doeleinden.
+
+## Groepen: Van budget tot premium
+De Terra is beschikbaar met verschillende groepen, van Shimano GRX 400 tot SRAM Force AXS. GRX 400 biedt uitstekende waarde voor beginners, met betrouwbare shifting en krachtige brakes. GRX 600 en 800 voegen gewichtsbesparing en betere afwerking toe. SRAM Rival en Force bieden 1x setups voor eenvoud en gewichtsbesparing. De keuze hangt af van je budget en voorkeuren.
+
+### 1x vs 2x: Wat past bij jou?
+1x setups zijn lichter en eenvoudiger, ideaal voor technische trails en races. 2x setups bieden meer versnellingen en betere cadence controle, perfect voor lange ritten met veel hoogtemeters. De Terra is compatibel met beide, en de keuze hangt af van je doeleinden en voorkeuren.
+
+## Rij-ervaring: Allround prestaties
+Tijdens uitgebreide tests op verschillende ondergronden toonde de Terra zijn allround karakter. Op vlakke gravelwegen voelt de fiets efficiënt en snel, zonder dat comfort verloren gaat. Op technische trails is de fiets wendbaar en voorspelbaar, met goede grip en controle. Tijdens lange ritten blijft de fiets comfortabel, dankzij de carbon constructie en allround geometrie.
+
+### Klimmen en afdalen
+Op klimmen presteert de Terra goed dankzij het lichte frame en efficiënte geometrie. De fiets voelt stabiel op steile secties zonder dat je moeite hebt om controle te houden. Tijdens afdalingen is de fiets wendbaar maar stabiel, met goede remming en controle. De geometrie geeft vertrouwen bij hoge snelheden zonder dat de fiets nerveus wordt.
+
+## Accessoires en personalisatie
+De Terra heeft mounting points voor bidonhouders en optionele mounts voor frame tassen, afhankelijk van het model. Orbea biedt MyO customisatie waarbij je frame kleur, componenten en accessoires kunt personaliseren. Dit maakt elke Terra uniek en afgestemd op jouw stijl en doeleinden.
+
+## Onderhoud en duurzaamheid
+Alle Terra modellen zijn gebouwd voor jarenlang gebruik. Carbon frames zijn robuust en bestand tegen normale gravel gebruik, terwijl aluminium frames bekend staan om hun duurzaamheid. Regelmatig onderhoud, vooral na modderige ritten, verlengt de levensduur aanzienlijk.
+
+## Voor wie is de Terra?
+De Orbea Terra is ideaal voor:
+- Gravel rijders die een allround fiets zoeken voor verschillende doeleinden
+- Beginners die net beginnen met gravel en een betaalbare, kwalitatieve fiets zoeken
+- Ervaren rijders die waarde hechten aan prestaties zonder premium prijzen te betalen
+- Rijders die flexibiliteit willen: van snelle ritten tot technische trails
+
+De Terra is minder geschikt voor:
+- Pure race doeleinden (Terra Race is beter)
+- Extreme bikepacking avonturen (beperkte bagage opties op sommige modellen)
+- Rijders die alleen op asfalt rijden (overkill voor pure road gebruik)
+
+## Conclusie en aanbeveling
+De Orbea Terra is een excellente keuze voor gravel rijders die een allround fiets zoeken die prestaties, comfort en waarde combineert. Met verschillende modellen en prijspunten is er een Terra voor elke rijder. Of je nu net begint met gravel of een ervaren rijder bent, de Terra biedt uitstekende prestaties zonder premium prijzen.
+
+Bij Bergasports hebben we verschillende Terra modellen op voorraad en kunnen we je helpen met de perfecte keuze. Plan een testrit of kom langs voor persoonlijk advies over modellen, groepsets en accessoires.`,
+  },
+  {
+    id: 14,
+    title: "Gravel bikes: De complete gids voor 2026",
+    category: "Gravel bikes",
+    keywords: "gravel bikes, gravelfiets, gravel bike kopen, beste gravelfiets, gravel cycling",
+    format: "Ultieme gids",
+    metaTitle: "Gravel Bikes Gids 2026 | Alles wat je moet weten | Bergasports",
+    metaDescription:
+      "Complete gids voor gravel bikes in 2026. Ontdek wat gravel bikes zijn, welke modellen er zijn, waar je op moet letten bij aankoop en hoe je de perfecte gravelfiets vindt voor jouw doeleinden.",
+    content: `## Introductie: Wat zijn gravel bikes?
+Gravel bikes hebben de fietswereld stormenderhand veroverd. Deze veelzijdige fietsen combineren de snelheid van een racefiets met de wendbaarheid van een mountainbike, waardoor ze perfect zijn voor avontuurlijke ritten op verschillende ondergronden. Deze uitgebreide gids behandelt alles wat je moet weten over gravel bikes: van de geschiedenis tot moderne trends, van frame constructie tot component keuzes, en van aankoopadvies tot onderhoud. Of je nu overweegt je eerste gravelfiets te kopen of je huidige setup wilt verbeteren, deze gids helpt je de perfecte keuze te maken.
+
+## Geschiedenis en evolutie van gravel bikes
+Gravel bikes ontstonden rond 2010 als reactie op de behoefte aan een fiets die zowel op asfalt als onverharde wegen kon presteren. Initieel waren het aangepaste cyclocross fietsen met bredere banden en comfortabelere geometrie. Sindsdien hebben gravel bikes zich ontwikkeld tot een eigen categorie met specifieke frame constructies, componenten en doeleinden. Vandaag de dag zijn gravel bikes een van de snelst groeiende segmenten in de fietsindustrie.
+
+### Moderne trends in 2026
+In 2026 zien we verschillende trends in gravel bikes: lichtere carbon frames, bredere bandclearance (tot 50mm), geïntegreerde systemen voor elektronische shifting, en meer focus op comfort voor lange ritten. 1x groepen zijn populairder geworden voor eenvoud en gewichtsbesparing, terwijl 2x setups nog steeds de voorkeur hebben voor lange ritten met veel hoogtemeters.
+
+## Frame constructie: Materialen en technieken
+Gravel bike frames worden gemaakt van verschillende materialen, elk met hun eigen voordelen. Aluminium frames zijn betaalbaar en duurzaam, ideaal voor beginners en budget-gerichte rijders. Carbon frames zijn lichter en comfortabeler, maar duurder. Staal frames bieden een unieke rij-ervaring met natuurlijke demping, terwijl titanium de ultieme combinatie is van gewicht, duurzaamheid en comfort (maar zeer duur).
+
+### Geometrie: Het verschil tussen modellen
+Gravel bike geometrie varieert tussen modellen. Race-georiënteerde gravel bikes hebben lagere stacks en langere reaches voor aerodynamische posities. Adventure gravel bikes hebben hogere stacks voor comfort tijdens lange ritten. Allround gravel bikes balanceren tussen beide, met matige stacks en reaches die geschikt zijn voor verschillende doeleinden.
+
+## Wielset en banden: De sleutel tot veelzijdigheid
+Gravel bikes onderscheiden zich door hun flexibele wielset en banden opties. De meeste gravel bikes accepteren zowel 700c als 650b wielen, met ruimte voor banden tussen 35-50mm breed. 700c wielen met 38-40mm banden zijn ideaal voor snelle gravelwegen en gemengde ondergronden. 650b wielen met 45-50mm banden bieden meer grip en comfort voor technische trails en modderige omstandigheden.
+
+### Bandkeuze voor verschillende doeleinden
+Banden zijn cruciaal voor gravel bike prestaties. Voor snelle gravelwegen raden we banden met lage rolweerstand aan, zoals Schwalbe G-One RS of Pirelli Cinturato Gravel. Voor technische trails en modderige omstandigheden zijn banden met meer grip essentieel, zoals WTB Riddler of Maxxis Rambler. Tubeless setup is aanbevolen voor lagere druk, betere grip en minder lekke banden.
+
+## Groepen: 1x vs 2x en merken
+Gravel bike groepen zijn beschikbaar van verschillende merken: Shimano GRX (specifiek voor gravel), SRAM (Rival tot Force), en Campagnolo (Ekar). 1x setups zijn populair voor eenvoud en gewichtsbesparing, met voldoende range voor de meeste doeleinden. 2x setups bieden meer versnellingen en betere cadence controle, ideaal voor lange ritten met veel hoogtemeters.
+
+### Elektronisch vs mechanisch
+Elektronische shifting (SRAM AXS, Shimano Di2) biedt snellere en preciezere shifts, vooral handig tijdens races. Mechanische groepen zijn lichter en goedkoper, maar vereisen meer onderhoud. De keuze hangt af van je budget en voorkeuren.
+
+## Rij-ervaring: Wat maakt gravel bikes speciaal
+Gravel bikes bieden een unieke rij-ervaring die het beste combineert van road en mountain biking. Op vlakke gravelwegen voelen ze snel en efficiënt, vergelijkbaar met racefietsen. Op technische trails zijn ze wendbaar en voorspelbaar, met goede grip en controle. Tijdens lange ritten blijven ze comfortabel, dankzij de carbon constructie en allround geometrie.
+
+### Verschillende ondergronden
+Gravel bikes excelleren op verschillende ondergronden: asfalt, gravelwegen, modderige paden, technische singletrack, en zelfs lichte mountainbike trails. Deze veelzijdigheid maakt gravel bikes ideaal voor avontuurlijke ritten waar je niet weet wat je tegenkomt.
+
+## Accessoires en personalisatie
+Gravel bikes bieden verschillende accessoire opties: bidonhouders, frame tassen, handlebar bags, en zelfs dropper posts voor technische trails. De keuze hangt af van je doeleinden: voor races heb je minimale accessoires nodig, voor bikepacking avonturen wil je maximale bagage capaciteit.
+
+## Onderhoud en duurzaamheid
+Gravel bikes vereisen regelmatig onderhoud, vooral na modderige ritten. Reinig de fiets grondig, controleer banden op slijtage, en smeer de ketting regelmatig. Carbon frames zijn robuust maar vereisen voorzichtigheid bij crashes. Aluminium frames zijn duurzamer maar zwaarder.
+
+## Aankoopadvies: Waar let je op?
+Bij aankoop van een gravel bike zijn verschillende factoren belangrijk: budget, doeleinden, frame materiaal, groepsets, en accessoire opties. Stel jezelf vragen: Wat zijn mijn doeleinden? Wat is mijn budget? Welke ondergronden ga ik rijden? Deze antwoorden helpen je de perfecte gravelfiets te vinden.
+
+## Conclusie: De perfecte gravelfiets vinden
+Gravel bikes bieden een unieke combinatie van snelheid, wendbaarheid en comfort, waardoor ze perfect zijn voor avontuurlijke ritten op verschillende ondergronden. Met verschillende modellen, prijspunten en configuraties is er een gravelfiets voor elke rijder. Of je nu net begint met gravel of een ervaren rijder bent, de juiste gravelfiets opent een wereld van mogelijkheden.
+
+Bij Bergasports hebben we een uitgebreide selectie gravel bikes, van budget modellen tot premium race machines. We helpen je graag bij het vinden van de perfecte gravelfiets voor jouw doeleinden. Plan een testrit of kom langs voor persoonlijk advies.`,
+  },
 
 ];
 
