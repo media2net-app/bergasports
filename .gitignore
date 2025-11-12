@@ -5,5 +5,8 @@ out
 yarn.lock
 npm-debug.log*
 .idea
-.vscode
-.env
+.tokens
+branch_structure.json
+temp_auto_push.bat
+temp_interactive_push.bat
+config.bat
