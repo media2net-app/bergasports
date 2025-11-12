@@ -1,31 +1,64 @@
-const keywordPerformance = [
+"use client";
+
+import { useEffect, useState } from "react";
+import Link from "next/link";
+
+type KeywordPerformance = {
+  keyword: string;
+  position: number;
+  clicks: number;
+  impressions: number;
+  ctr: number;
+};
+
+type SearchConsoleData = {
+  keywords: KeywordPerformance[];
+  summary: {
+    totalClicks: number;
+    totalImpressions: number;
+    averageCtr: number;
+    averagePosition: number;
+    topKeywords: KeywordPerformance[];
+  };
+  dateRange: {
+    startDate: string;
+    endDate: string;
+  };
+};
+
+// Fallback data when API is not available
+const fallbackKeywordPerformance = [
   {
     keyword: "bergasports wielrenschoenen",
     position: 8,
-    change: "+2",
-    volume: 880
+    clicks: 0,
+    impressions: 0,
+    ctr: 0
   },
   {
     keyword: "racefietsen bergasports",
     position: 12,
-    change: "+5",
-    volume: 540
+    clicks: 0,
+    impressions: 0,
+    ctr: 0
   },
   {
     keyword: "bergasports skeelers",
     position: 5,
-    change: "-1",
-    volume: 320
+    clicks: 0,
+    impressions: 0,
+    ctr: 0
   },
   {
     keyword: "lafuga kleding",
     position: 19,
-    change: "+4",
-    volume: 260
+    clicks: 0,
+    impressions: 0,
+    ctr: 0
   }
 ];
 
-const summaryMetrics = [
+const fallbackSummaryMetrics = [
   {
     label: "Visibility index",
     value: "27,8",
@@ -50,12 +83,12 @@ const serpInsights = [
   {
     title: "Featured snippet kansen",
     detail:
-      '“bergasports wielrenschoenen” vertoont nu een lijst-snippet. Voeg structured data toe aan de koopgids.'
+      '"bergasports wielrenschoenen" vertoont nu een lijst-snippet. Voeg structured data toe aan de koopgids.'
   },
   {
     title: "People Also Ask",
     detail:
-      'Vragen rond “racefietsen afstellen” winnen aan volume. Plan een Q&A sectie in de volgende blog.'
+      'Vragen rond "racefietsen afstellen" winnen aan volume. Plan een Q&A sectie in de volgende blog.'
   },
   {
     title: "Video resultaten",
@@ -80,16 +113,106 @@ const contentIdeas = [
   }
 ];
 
+function formatNumber(num: number): string {
+  return new Intl.NumberFormat("nl-NL").format(num);
+}
+
+function formatPercentage(num: number): string {
+  return `${(num * 100).toFixed(2)}%`;
+}
+
 export default function DashboardSeo() {
+  const [data, setData] = useState<SearchConsoleData | null>(null);
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState<string | null>(null);
+
+  useEffect(() => {
+    async function fetchData() {
+      try {
+        const response = await fetch("/api/search-console/data?days=30&limit=50");
+        const result = await response.json();
+
+        if (!response.ok) {
+          // If no auth, show fallback data
+          if (response.status === 401) {
+            setError("Search Console niet gekoppeld. Configureer tokens in de instellingen.");
+            setData(null);
+          } else {
+            throw new Error(result.error ?? "Fout bij ophalen data");
+          }
+        } else {
+          setData(result);
+          setError(null);
+        }
+      } catch (err) {
+        console.error("Error fetching Search Console data:", err);
+        setError(err instanceof Error ? err.message : "Onbekende fout");
+        setData(null);
+      } finally {
+        setLoading(false);
+      }
+    }
+
+    fetchData();
+  }, []);
+
+  const keywords = data?.keywords || fallbackKeywordPerformance;
+  const summary = data?.summary;
+
+  // Calculate summary metrics from real data or use fallback
+  const summaryMetrics = summary
+    ? [
+        {
+          label: "Totale clicks",
+          value: formatNumber(summary.totalClicks),
+          delta: "",
+          description: "Laatste 30 dagen"
+        },
+        {
+          label: "Gem. CTR",
+          value: formatPercentage(summary.averageCtr),
+          delta: "",
+          description: "Klikratio gemiddeld"
+        },
+        {
+          label: "Gem. positie",
+          value: summary.averagePosition.toFixed(1),
+          delta: "",
+          description: "Gemiddelde positie top keywords"
+        }
+      ]
+    : fallbackSummaryMetrics;
+
   return (
     <div className="seo-analytics">
       <section className="seo-hero">
         <div>
           <h1>SEO Inzichten</h1>
           <p>
-            Houd zicht op keyword-posities, serp-features en optimalisatiekansen. Gebruik
-            deze data om SEO en SEA beter op elkaar af te stemmen.
+            Houd zicht op keyword-posities, serp-features en optimalisatiekansen. Gebruik deze
+            data om SEO en SEA beter op elkaar af te stemmen.
           </p>
+          {error && (
+            <div
+              style={{
+                marginTop: "1rem",
+                padding: "1rem",
+                borderRadius: "8px",
+                background: "rgba(255, 120, 120, 0.1)",
+                border: "1px solid rgba(255, 120, 120, 0.3)"
+              }}
+            >
+              <p style={{ color: "rgba(255, 120, 120, 0.9)", margin: 0 }}>
+                {error}{" "}
+                <Link
+                  href="/dashboard/search-console-auth"
+                  style={{ color: "#d4af38", textDecoration: "underline" }}
+                >
+                  Koppel Search Console
+                </Link>
+              </p>
+            </div>
+          )}
         </div>
       </section>
 
@@ -98,7 +221,7 @@ export default function DashboardSeo() {
           <article key={metric.label} className="seo-metric-card">
             <span className="label">{metric.label}</span>
             <strong>{metric.value}</strong>
-            <span className="delta">{metric.delta}</span>
+            {metric.delta && <span className="delta">{metric.delta}</span>}
             <p>{metric.description}</p>
           </article>
         ))}
@@ -108,32 +231,44 @@ export default function DashboardSeo() {
         <article className="insight-card keyword-performance">
           <header>
             <h2>Zoekwoord prestaties</h2>
-            <p>Realtime zicht op belangrijke keyword-posities voor Bergasports.</p>
+            <p>
+              {loading
+                ? "Data wordt geladen..."
+                : data
+                ? "Realtime zicht op belangrijke keyword-posities voor Bergasports."
+                : "Voorbeeld data - koppel Search Console voor echte data"}
+            </p>
           </header>
-          <div className="keyword-table-wrapper">
-            <table className="keyword-table">
-              <thead>
-                <tr>
-                  <th>Zoekwoord</th>
-                  <th>Positie</th>
-                  <th>Trend</th>
-                  <th>Maandvolume</th>
-                </tr>
-              </thead>
-              <tbody>
-                {keywordPerformance.map((row) => (
-                  <tr key={row.keyword}>
-                    <td>{row.keyword}</td>
-                    <td>{row.position}</td>
-                    <td className={row.change.startsWith("+") ? "positive" : "negative"}>
-                      {row.change}
-                    </td>
-                    <td>{row.volume}</td>
+          {loading ? (
+            <div style={{ padding: "2rem", textAlign: "center", color: "rgba(255, 255, 255, 0.6)" }}>
+              Laden...
+            </div>
+          ) : (
+            <div className="keyword-table-wrapper">
+              <table className="keyword-table">
+                <thead>
+                  <tr>
+                    <th>Zoekwoord</th>
+                    <th>Positie</th>
+                    <th>Clicks</th>
+                    <th>Impressions</th>
+                    <th>CTR</th>
                   </tr>
-                ))}
-              </tbody>
-            </table>
-          </div>
+                </thead>
+                <tbody>
+                  {keywords.slice(0, 20).map((row) => (
+                    <tr key={row.keyword}>
+                      <td>{row.keyword}</td>
+                      <td>{row.position.toFixed(1)}</td>
+                      <td>{formatNumber(row.clicks)}</td>
+                      <td>{formatNumber(row.impressions)}</td>
+                      <td>{formatPercentage(row.ctr)}</td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+          )}
         </article>
 
         <article className="insight-card">
